@@ -1,0 +1,169 @@
+nav {
+  height: 80px;
+  background-color: #DC143C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 800px;
+  top: 0px;
+  z-index: 1;
+}
+
+nav a {
+  font-family: 'Inter', sans-serif;
+  margin: 0 20px;
+  text-decoration: 0;
+  background-color: #DC143C;
+  border: 0;
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+}
+body {
+  width:800px;
+  margin: auto;
+}
+
+#bionav {
+  height: 80px;
+}
+.aside {
+  width:300px;
+  height: 430px;
+}
+
+#bio  {
+  font-family: 'Playfair Display', serif;
+  margin: 0 10px 0 0;
+  display: flex;
+}
+
+.spacer {
+  height: 40px;
+}
+
+.section  {
+  display: flex;
+}
+
+#bio img {
+  width: 300px; 
+  height: 430px;
+  max-height: auto;
+  object-fit: cover;
+  object-position: 20% 18%;
+  }
+
+#bio .aside {
+  position: relative;
+  color: #1a6a62;
+  -webkit-text-stroke: 2px #DC143C;
+}
+
+#bio h1 {
+  font-size: 64px;
+  font-weight: normal;
+  margin:0;
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  line-height: 1.1;
+}
+#bio h2 {
+  font-size: 32px;
+  font-weight: normal;
+  margin:0;
+  position: absolute;
+  bottom: 155px;
+  left: 40px;
+}
+
+
+.text {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px; 
+  font-weight: 300;
+  color: #23362b;
+  line-height: 1.4;
+  text-shadow: 0px 0px #000000;
+  padding: 0 20px ;
+  margin: 50px 0 0 0;
+}
+
+main strong {
+  font-weight: 600;
+  color: #DC143C;
+}
+
+.text h2 { 
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+
+.text h3{
+  color: #1a6a62;
+} 
+
+main h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+#first {
+  font-size: 19px; 
+  margin: 10px 0;
+}
+
+main ul {
+  list-style: none;
+}
+
+/* main li {
+  list-style: square ;
+} */
+
+main li::before {
+  content: "• "; 
+  color: #DC143C;
+}
+
+
+
+blockquote {
+  font-style: italic;
+  font-family: 'Playfair Display', cursive;
+  font-size: 40px;
+  display: block;
+  background: #DC143C;
+  position: relative;
+  padding:50px;
+  color: white;
+  width: 200px;
+  margin: auto;
+}
+
+div.mark {
+  font-family: 'Playfair Display', cursive;
+  font-size: 145px;
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  z-index: 2;
+}
+
+main h4 {
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-size: 15.3px;  
+  font-weight: normal;
+  margin: 0;
+}
+
+hr {
+  border-top: 4px solid black;
+  max-width: 730px;
+}
