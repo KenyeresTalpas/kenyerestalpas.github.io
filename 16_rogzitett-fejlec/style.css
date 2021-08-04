@@ -1,0 +1,40 @@
+nav {
+  height: 70px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 100px;
+}
+.menu {
+  height: 30px;
+  width: 100px;
+  background-color: cyan;
+  margin: 0 20px 0 0px;
+}
+.menu.nagy{
+  width: 160px;
+}
+main {
+  display: flex;
+  margin: 80px 100px 10px 100px;
+  flex-direction: row-reverse;
+}
+article {
+  height: 500px;
+  background-color: yellow;
+  flex-grow: 4;
+}
+aside {
+  height: 500px;
+  background-color: lime;
+  flex-grow: 1;
+}
+footer {
+  height: 80px;
+  background-color: lightgrey;
+  display: flex;
+  margin: 0 100px;
+}

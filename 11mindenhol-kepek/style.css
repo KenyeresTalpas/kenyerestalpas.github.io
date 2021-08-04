@@ -1,0 +1,14 @@
+.pic {
+  margin: 80px 0;
+} 
+
+img {
+  width: 300px;
+  margin: 50px;
+}
+img:hover {
+  position: relative;
+  top: -10px;
+  width: 400px;
+  margin: 0;
+}

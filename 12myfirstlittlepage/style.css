@@ -1,0 +1,26 @@
+body {
+  font-family: 'Sen', sans-serif; 
+}
+
+div {
+  display: flex;
+}
+
+.pic {
+  margin: 0px 0;
+} 
+
+div section {
+  width: 200px;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  margin: 0 23px;
+}
+
+section a {
+  color: blue;
+  display: block;
+}

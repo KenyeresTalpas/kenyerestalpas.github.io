@@ -1,0 +1,96 @@
+body {
+  font-family: 'Open Sans';
+}
+/*h1 {
+}
+h3 {
+  margin-top: 60px;
+}
+h3.green {
+  color: green;
+}
+h3#red {
+  color: red;
+}*/
+.signup h3 {
+  margin: 0;
+}
+.doboz {
+  /*border: solid black 1px;*/
+  max-width: 600px;
+  margin: auto;
+}
+.signup {
+  display: bolck;
+  padding: 10px 10px 20px 10px;
+  border: solid grey 1px;
+  /*width: auto;*/
+  color: gray;
+  border-radius: 3px;
+  position: relative;
+}
+.signup input.email {
+  width: 100%;
+  border: solid grey 1px;
+  border-radius: 3px;
+  height: 28px;
+  box-sizing: border-box;
+  margin-bottom: 6px
+}
+.signup button {
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  color: white;
+  background: #3cb878;
+  border: 0;
+  padding: 8px ;
+  margin:0 0 10px 0;
+  height: 30px;
+}
+.signup #terms {
+  position: relative;
+  top: 1px;
+  /*left: 20px;*/
+}
+.signup #x {
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+#mark {
+  background: #3cb878;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+.kartya {
+  background-color: #3cb878;
+  width: 180px;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  box-shadow: 0px 0px 6px 1px grey; 
+  margin-bottom: 28px;
+}
+
+.kartya h3 {
+  margin: 20px 0 0 0; 
+}
+
+#kartyatarto {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: purple;
+}
+p {
+  width: 450px;
+}
+ul {
+  list-style: square;
+}
+ol {
+  list-style-type: upper-roman;
+}
+.color {
+  color: deeppink;
+}
+.alahuz {
+  text-decoration: underline;
+}
